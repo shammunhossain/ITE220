@@ -1,6 +1,6 @@
 var hotel = {
 
-name: 'STAMFORD HOTEL',
+name: 'SADMAN HOTEL',
 rooms: 40,
 booked: 25,
 checkAvailability : function() {
@@ -16,7 +16,7 @@ elRooms.textContent = hotel.checkAvailability();
 
 var hotel = new Object();
 
-hotel.name = 'STAMFORD HOTEL'
+hotel.name = 'SADMAN HOTEL'
 hotel.rooms = 40;
 hotel.booked = 25;
 
@@ -36,9 +36,6 @@ this.checkAvailability = function(){
 
 }
 
-var stamfordHotel = new Hotel ('STAMFORD HOTEL', 40, 25);
-<<<<<<< HEAD
+var EasyLifeHotel = new Hotel ('SADMAN HOTEL', 40, 25);
 
-=======
->>>>>>> c91a1e609110aed0d645a49bf176f259c54eb5ba
 
