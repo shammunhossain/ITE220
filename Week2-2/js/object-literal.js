@@ -36,6 +36,6 @@ this.checkAvailability = function(){
 
 }
 
-var EasyLifeHotel = new Hotel ('SADMAN HOTEL', 40, 25);
+var sadmanHotel = new Hotel ('SADMAN HOTEL', 40, 25);
 
 
