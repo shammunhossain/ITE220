@@ -37,5 +37,8 @@ this.checkAvailability = function(){
 }
 
 var stamfordHotel = new Hotel ('STAMFORD HOTEL', 40, 25);
+<<<<<<< HEAD
 
+=======
+>>>>>>> c91a1e609110aed0d645a49bf176f259c54eb5ba
 
