@@ -1,52 +1,76 @@
 var hotel = {
+name: 'SADMAN SUPRIME HOTEL',
 
+Rooms: 40,
 
-name: 'SADMAN HOTEL',
-rooms: 40,
 booked: 25,
+
 checkAvailability : function() {
-return this.rooms - this.booked;
+
+return this.Rooms - this.booked;
 }
 
+
+
 };
+
 
 
 var elName = document.getElementById('hotelName');
 elName.textContent = hotel.name;
 
 
-var elRooms = document.getElementById('rooms');
+
+var elRooms = document.getElementById('Rooms');
+
 elRooms.textContent = hotel.checkAvailability();
+
 
 
 var hotel = new Object();
 
+//sadmanhossain
+hotel.name = 'SADMAN SUPRIME HOTEL'
 
-hotel.name = 'SADMAN HOTEL'
-hotel.rooms = 40;
+hotel.Rooms = 40;
+
 hotel.booked = 25;
 
 
+
 hotel.checkAvailability = function(){
-   return this.rooms - this.booked;
+
+
+   return this.Rooms - this.booked;
+
+
 };
 
 
-function Hotel(name, rooms, booked){
+function Hotel(name, Rooms, booked){
+
 
 
 this.name = name;
-this.rooms = rooms;
+
+this.Rooms = Rooms;
+
 this.booked = booked;
 
 
+
+
 this.checkAvailability = function(){
-  return this.rooms - this.booked;
+
+  
+  return this.Rooms - this.booked;
+
 };
+
 
 }
 
-
-var sadmanHotel = new Hotel ('SADMAN HOTEL', 40, 25);
+//sadmanhossain
+var sadmanHotel = new Hotel ('SADMAN SUPRIME HOTEL', 40, 25);
 
 
