@@ -1,9 +1,9 @@
 var hotel = {
 name: 'SADMAN SUPRIME HOTEL',
 
-Rooms: 40,
+Rooms: 50,
 
-booked: 25,
+booked: 30,
 
 checkAvailability : function() {
 
@@ -32,9 +32,9 @@ var hotel = new Object();
 //sadmanhossain
 hotel.name = 'SADMAN SUPRIME HOTEL'
 
-hotel.Rooms = 40;
+hotel.Rooms = 50;
 
-hotel.booked = 25;
+hotel.booked = 30;
 
 
 
@@ -71,6 +71,6 @@ this.checkAvailability = function(){
 }
 
 //sadmanhossain
-var sadmanHotel = new Hotel ('SADMAN SUPRIME HOTEL', 40, 25);
+var sadmanHotel = new Hotel ('SADMAN SUPRIME HOTEL', 50, 25);
 
 
