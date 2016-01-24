@@ -1,3 +1,9 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
 <?php
       $seats =['A-1','A-2','A-3','A-4','A-5',
                'B-1','B-2','B-3','B-4','B-5',
@@ -12,5 +18,7 @@ foreach($seats as $seat){
 }
 	++$counter;
 }
-echo "<input type= 'submit' value='buy now'/></form>";
+echo "<input type= 'submit' value='buy now' id='buyNow'/></form>";
 ?>
+</body>
+</html>
